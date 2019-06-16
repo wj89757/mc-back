@@ -1,0 +1,154 @@
+Considering library net.minecraftforge:forge:1.12.1-14.22.1.2478: Not Downloading {Wrong Side}
+Considering library net.minecraft:launchwrapper:1.12: Not Downloading {Wrong Side}
+Considering library org.ow2.asm:asm-all:5.2
+Considering library jline:jline:2.13: Not Downloading {Wrong Side}
+Considering library com.typesafe.akka:akka-actor_2.11:2.3.3
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library com.typesafe:config:1.2.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/com/typesafe/config/1.2.1/config-1.2.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-actors-migration_2.11:1.1.0
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-compiler:2.11.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar" internal checksums
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:194)
+	at java.util.jar.JarInputStream.read(JarInputStream.java:207)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at net.minecraftforge.installer.DownloadUtils.readFully(DownloadUtils.java:435)
+	at net.minecraftforge.installer.DownloadUtils.validateJar(DownloadUtils.java:276)
+	at net.minecraftforge.installer.DownloadUtils.checksumValid(DownloadUtils.java:137)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:53)
+	at net.minecraftforge.installer.ClientInstall.run(ClientInstall.java:131)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:43)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:406)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:165)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:51)
+Downloading library org.scala-lang:scala-compiler:2.11.1
+Unpacking packed file scala-compiler-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 942120
+  Total Length:    9183051
+  Temp File:       /var/folders/0x/4c0ryg1j56b8c_4hkntjkm380000gn/T/art1532651306259015180.pack
+Successfully unpacked packed file scala-compiler-2.11.1.jar.pack.xz
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-library:2.11.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar" internal checksums
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:194)
+	at java.util.jar.JarInputStream.read(JarInputStream.java:207)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at net.minecraftforge.installer.DownloadUtils.readFully(DownloadUtils.java:435)
+	at net.minecraftforge.installer.DownloadUtils.validateJar(DownloadUtils.java:276)
+	at net.minecraftforge.installer.DownloadUtils.checksumValid(DownloadUtils.java:137)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:53)
+	at net.minecraftforge.installer.ClientInstall.run(ClientInstall.java:131)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:43)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:406)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:165)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:51)
+Downloading library org.scala-lang:scala-library:2.11.1
+Unpacking packed file scala-library-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 341368
+  Total Length:    5984083
+  Temp File:       /var/folders/0x/4c0ryg1j56b8c_4hkntjkm380000gn/T/art5866770990930635613.pack
+Successfully unpacked packed file scala-library-2.11.1.jar.pack.xz
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar" internal checksums
+    checksums.sha1 was not found, validation failed
+Downloading library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Unpacking packed file scala-parser-combinators_2.11-1.0.1.jar.pack.xz
+  Signed
+  Checksum Length: 37614
+  Total Length:    273457
+  Temp File:       /var/folders/0x/4c0ryg1j56b8c_4hkntjkm380000gn/T/art7296397862489822700.pack
+Successfully unpacked packed file scala-parser-combinators_2.11-1.0.1.jar.pack.xz
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-reflect:2.11.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar" internal checksums
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:194)
+	at java.util.jar.JarInputStream.read(JarInputStream.java:207)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at net.minecraftforge.installer.DownloadUtils.readFully(DownloadUtils.java:435)
+	at net.minecraftforge.installer.DownloadUtils.validateJar(DownloadUtils.java:276)
+	at net.minecraftforge.installer.DownloadUtils.checksumValid(DownloadUtils.java:137)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:53)
+	at net.minecraftforge.installer.ClientInstall.run(ClientInstall.java:131)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:43)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:406)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:165)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:51)
+Downloading library org.scala-lang:scala-reflect:2.11.1
+Unpacking packed file scala-reflect-2.11.1.jar.pack.xz
+  Signed
+  Checksum Length: 291610
+  Total Length:    3217021
+  Temp File:       /var/folders/0x/4c0ryg1j56b8c_4hkntjkm380000gn/T/art412038561734608048.pack
+Successfully unpacked packed file scala-reflect-2.11.1.jar.pack.xz
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-swing_2.11:1.0.1
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar" internal checksums
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:240)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.ZipInputStream.read(ZipInputStream.java:194)
+	at java.util.jar.JarInputStream.read(JarInputStream.java:207)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at net.minecraftforge.installer.DownloadUtils.readFully(DownloadUtils.java:435)
+	at net.minecraftforge.installer.DownloadUtils.validateJar(DownloadUtils.java:276)
+	at net.minecraftforge.installer.DownloadUtils.checksumValid(DownloadUtils.java:137)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:53)
+	at net.minecraftforge.installer.ClientInstall.run(ClientInstall.java:131)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:43)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:406)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:165)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:51)
+Downloading library org.scala-lang:scala-swing_2.11:1.0.1
+Unpacking packed file scala-swing_2.11-1.0.1.jar.pack.xz
+  Signed
+  Checksum Length: 39019
+  Total Length:    888907
+  Temp File:       /var/folders/0x/4c0ryg1j56b8c_4hkntjkm380000gn/T/art8260910619743737365.pack
+Successfully unpacked packed file scala-swing_2.11-1.0.1.jar.pack.xz
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library org.scala-lang:scala-xml_2.11:1.0.2
+Checking "/Users/wangjun/timwang/minecraft/minecraft/libraries/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar" internal checksums
+    checksums.sha1 validated successfully
+    Jar contents validated successfully
+Considering library lzma:lzma:0.0.1: Not Downloading {Wrong Side}
+Considering library net.sf.jopt-simple:jopt-simple:5.0.3: Not Downloading {Wrong Side}
+Considering library java3d:vecmath:1.5.2
+Considering library net.sf.trove4j:trove4j:3.0.3
+Considering library net.minecraftforge:MercuriusUpdater:1.12.1

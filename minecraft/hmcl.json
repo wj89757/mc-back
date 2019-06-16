@@ -1,0 +1,52 @@
+{
+  "last": "Default",
+  "backgroundType": "DEFAULT",
+  "commonpath": "/Users/wangjun/Library/Application Support/minecraft",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": "DIRECT",
+  "theme": "blue",
+  "downloadtype": 0,
+  "configurations": {
+    "Default": {
+      "global": {
+        "usesGlobal": true,
+        "javaArgs": "",
+        "minecraftArgs": "",
+        "maxMemory": 4096,
+        "permSize": "",
+        "width": 854,
+        "height": 480,
+        "javaDir": "",
+        "precalledCommand": "",
+        "serverIp": "",
+        "java": "1.8.0_131",
+        "wrapper": "",
+        "fullscreen": false,
+        "noJVMArgs": false,
+        "notCheckGame": false,
+        "noCommon": false,
+        "showLogs": false,
+        "gameDir": "",
+        "launcherVisibility": 1,
+        "gameDirType": 0,
+        "defaultJavaPath": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java"
+      },
+      "gameDir": "./minecraft",
+      "useRelativePath": false
+    }
+  },
+  "accounts": [
+    {
+      "type": "offline",
+      "uuid": "a187984ecd41325cab26797148572150",
+      "username": "wj89757"
+    }
+  ],
+  "selectedAccount": "wj89757:wj89757",
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 100,
+  "firstLaunch": false,
+  "authlibInjectorServers": []
+}

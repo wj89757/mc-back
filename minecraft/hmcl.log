@@ -1,0 +1,55 @@
+[21:04:03] [main/INFO] *** Hello Minecraft! Launcher 2.4.1.6 ***
+[21:04:03] [main/INFO] Initialized settings.
+[21:04:07] [AWT-EventQueue-0/INFO] Start generating launching command...
+[21:04:07] [Game Launcher/INFO] Building process
+[21:04:07] [Game Launcher/INFO] Logging in...
+[21:04:07] [Game Launcher/INFO] Detecting libraries...
+[21:04:07] [TaskList/INFO] Executing task: PARALLEL
+[21:04:07] [pool-2-thread-1/INFO] Executing task: 下载: com.mojang:text2speech:1.10.3
+[21:04:07] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:08] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:09] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:10] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:10] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:11] [pool-2-thread-1/INFO] Downloading: https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar, to: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+[21:04:11] [AWT-EventQueue-0/INFO] Tasks have been canceled by user.
+[21:04:12] [pool-2-thread-1/ERROR] Task failed: 下载: com.mojang:text2speech:1.10.3
+org.jackhuang.hellominecraft.util.tasks.download.NetException: 下载失败 https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar
+	at org.jackhuang.hellominecraft.util.tasks.download.FileDownloadTask.executeTask(FileDownloadTask.java:219)
+	at org.jackhuang.hellominecraft.launcher.core.launch.LibraryDownloadTask.download(LibraryDownloadTask.java:58)
+	at org.jackhuang.hellominecraft.launcher.core.launch.LibraryDownloadTask.executeTask(LibraryDownloadTask.java:52)
+	at org.jackhuang.hellominecraft.util.tasks.TaskList.executeTask(TaskList.java:139)
+	at org.jackhuang.hellominecraft.util.tasks.TaskList.access$000(TaskList.java:38)
+	at org.jackhuang.hellominecraft.util.tasks.TaskList$Invoker.run(TaskList.java:86)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jackhuang.hellominecraft.util.tasks.download.NetException: 下载失败，回复码 404
+	at org.jackhuang.hellominecraft.util.tasks.download.FileDownloadTask.executeTask(FileDownloadTask.java:146)
+	... 10 more
+[21:04:12] [TaskList/INFO] Task finished: PARALLEL
+[21:04:12] [Game Launcher/INFO] Unpacking natives...
+[21:04:13] [Game Launcher/ERROR] Unable to decompress library: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar to /Users/wangjun/timwang/minecraft/minecraft/versions/1.12.1-forge1.12.1-14.22.1.2478/1.12.1-forge1.12.1-14.22.1.2478-natives
+java.io.FileNotFoundException: /Users/wangjun/timwang/minecraft/minecraft/libraries/com/mojang/text2speech/1.10.3/text2speech-1.10.3-.jar (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.jackhuang.hellominecraft.util.system.Compressor.unzip(Compressor.java:158)
+	at org.jackhuang.hellominecraft.launcher.core.launch.DefaultGameLauncher.lambda$register$51(DefaultGameLauncher.java:64)
+	at org.jackhuang.hellominecraft.launcher.core.launch.DefaultGameLauncher.access$lambda$1(DefaultGameLauncher.java)
+	at org.jackhuang.hellominecraft.launcher.core.launch.DefaultGameLauncher$$Lambda$2.call(Unknown Source)
+	at org.jackhuang.hellominecraft.util.EventHandler.execute(EventHandler.java:68)
+	at org.jackhuang.hellominecraft.launcher.core.launch.GameLauncher.makeLaunchCommand(GameLauncher.java:107)
+	at org.jackhuang.hellominecraft.launcher.util.HMCLGameLauncher$1.run(HMCLGameLauncher.java:88)
+[21:04:13] [Game Launcher/INFO] *** Make shell command ***
+[21:04:13] [Game Launcher/INFO] On making head command.
+[21:04:13] [Game Launcher/INFO] Java Version: 1.8.0_131
+[21:04:13] [Game Launcher/INFO] Java Platform: 64
+[21:04:13] [Game Launcher/INFO] System Platform: 64
+[21:04:13] [Game Launcher/INFO] System Physical Memory: 16384
+[21:04:13] [Game Launcher/INFO] On making launcher args.
+[21:04:13] [Game Launcher/INFO] Starting process
+[21:04:13] [Game Launcher/INFO] Have started the process
+[21:04:52] [ProcessMonitor/INFO] Process exit code: 0
